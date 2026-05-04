@@ -36,6 +36,9 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en" className={`${inter.variable} ${poppins.variable}`}>
+      <head>
+        <meta name="google-site-verification" content="m4nExK0i3MY3tgvf53bDlJp6GzK84769yERca-AHbgg" />
+      </head>
       <body className="min-h-screen bg-slate-50 antialiased">{children}</body>
     </html>
   );
